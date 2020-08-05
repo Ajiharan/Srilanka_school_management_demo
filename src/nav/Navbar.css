@@ -1,0 +1,91 @@
+.Navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding: 7px;
+  width: 100%;
+  background-color: rgb(41, 44, 44);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Navbar__showNew {
+  transition: all 2s ease-in-out;
+  opacity: 0.84;
+  background-color: white;
+}
+.Navbar__logo {
+  cursor: pointer;
+  width: 180px;
+  object-fit: contain;
+}
+
+.Navbar__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navbar__link {
+  text-decoration: none;
+  margin-left: 8px;
+  color: white;
+  margin-right: 8px;
+}
+
+.Navbar__link span {
+  font-weight: 700;
+}
+
+.Navbar__link:hover {
+  transition: ease-in 0.28s;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.Navbar__search {
+  background-color: rgb(65, 63, 63);
+  border-radius: 20px;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+.drop__white {
+  color: white !important;
+  font-weight: 700;
+}
+.drop__black {
+  color: black !important;
+  font-weight: 700;
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-toggle:hover {
+  text-decoration: none;
+}
+.dropdown-menu {
+  background-color: rgb(41, 44, 44);
+  color: white;
+  box-shadow: inset 0px -12px 1px black;
+}
+.Navbar__searchInput {
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  width: 350px;
+  padding: 1px;
+  border: none;
+  background-color: rgb(65, 63, 63);
+}
+
+.search__icon {
+  cursor: pointer;
+  color: white;
+  margin: 8px;
+}
+.Navbar_linkScroll {
+  color: black;
+}
